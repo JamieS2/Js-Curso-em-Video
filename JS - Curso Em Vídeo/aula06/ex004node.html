@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>tratamento de dados</h1>
+> n1 = 1545.5<br>
+1545.5<br>
+> n1<br>
+1545.5<br>
+> n1.toFixed(2)<br> <!--COLOCA DUAS CASAS DECIMAIS-->
+'1545.50'<br>
+> n1.toFixed(2).replace('.',',')<br> <!--COLOCA DUAS CASAS DECIMAIS + TROCA O PONTO PELA VIRGULA NO FINAL-->
+'1545,50'<br>
+> n1.toLocaleString('pt-br',{style: 'currency',currency:'BRL'})<br> <!--COLOCA OS DADOS EM MOEDAS REAL-->
+'R$ 1.545,50'<br>
+> n1.toLocaleString('pt-br',{style: 'currency',currency:'USD'})<br> <!--COLOCA OS DADOS EM MOEDAS DOLAR-->
+'US$ 1.545,50'<br>
+>
+</body>
+</html>
